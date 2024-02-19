@@ -16,3 +16,5 @@ function getRandomUserAgent() {
 function getRandomTime(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
+
+module.exports = { getRandomUserAgent, getRandomTime };
